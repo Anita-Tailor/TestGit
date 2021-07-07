@@ -23,7 +23,7 @@ cards;
 run;
  
 
-Data OtherOutPrep;
+Data OtherOutPrep2;
 set work.QuoteDetails_OtherOutputs;
 If upcase(input(name,$6.)) in ('STEFFI','EDBERG') then do;
 Val1=input(Value,10.2);
